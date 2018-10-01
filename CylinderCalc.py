@@ -10,7 +10,10 @@ def submit():
 	v = round(v,3)
 
 	output.config(state="normal")
-	output.insert(tk.INSERT,v)
+
+	outputValue = "Given\nradius:"+str(r)+"units\nHeight:"+str(h)+"units\nThe Volume is:"+str(v)+"Units Cubed\n\n"
+
+	output.insert(tk.INSERT,outputValue)
 	output.config(state="disabled")
 
 
