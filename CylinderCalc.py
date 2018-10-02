@@ -13,6 +13,7 @@ def submit():
 
 	outputValue = "Given\nradius:"+str(r)+"units\nHeight:"+str(h)+"units\nThe Volume is:"+str(v)+"Units Cubed\n\n"
 
+	output.delete(1.0,10000.0)
 	output.insert(tk.INSERT,outputValue)
 	output.config(state="disabled")
 
