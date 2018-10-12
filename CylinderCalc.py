@@ -2,7 +2,7 @@ import tkinter as tk
 import math
 
 def submit():
-	print("submit pressed")
+	print("Result Displayed on Interface")
 	r = float(entr.get())
 	h = float(enth.get())
 
